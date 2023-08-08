@@ -1,8 +1,10 @@
 ﻿using Business.Abstract;
+using Core.Utilities.ErrorResult;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using Entities.DTOs;
+using System.ComponentModel.Design;
 
 namespace Business.Concrete
 {
@@ -18,8 +20,14 @@ namespace Business.Concrete
         public IResult Add(Product product)
         {
             //business codes
+
+            if (product.ProductName.Length<2)
+            {
+                return new ErrorResult("Ürün ismi enn az 2 karakter olmalıdır");
+            }
             _productDal.Add(product);
-            return new Result(true, "Ürün eklendi");
+
+            return new SuccesResult("Ürün eklendi");
         }
 
         public List<Product> GetAll()
@@ -28,7 +36,7 @@ namespace Business.Concrete
             //iş kodları 
             //yetkisi var mı 
 
-            return _productDal.GetAll();
+            return  new _productDal.GetAll();
         }
 
         public List<Product> GetAllByCategoryID(int id)
@@ -44,7 +52,7 @@ namespace Business.Concrete
         public Product GetById(int productId)
         {
             return _productDal.Get(p => p.ProductId == productId);      
-        }
+        } 
 
         public List<Product> GetByUnitPrice(decimal min, decimal max)
         {
@@ -58,6 +66,11 @@ namespace Business.Concrete
         }
 
         IResult IProductService.Add(Product product)
+        {
+            throw new NotImplementedException();
+        }
+
+        List<Product> IProductService.GetAll()
         {
             throw new NotImplementedException();
         }

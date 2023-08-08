@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Core.Utilities.Results
 {
-    internal class Result
+    //Temel voidler başlangıç
+    public interface IResult
     {
+        bool Success { get; }
+        string Message { get; }
+
     }
 }
