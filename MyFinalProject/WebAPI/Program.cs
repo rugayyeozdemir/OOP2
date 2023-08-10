@@ -1,3 +1,8 @@
+using Business.Abstract;
+using Business.Concrete;
+using DataAccess.Abstract;
+using DataAccess.Concrete.EntityFreamwork;
+
 namespace WebAPI
 {
     public class Program
@@ -12,6 +17,8 @@ namespace WebAPI
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+            builder.Services.AddSingleton<IProductService, ProductManager>();
+            builder.Services.AddSingleton<IProductDal, EfProductDal>();
 
             var app = builder.Build();
 
@@ -21,7 +28,7 @@ namespace WebAPI
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
-
+             
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
