@@ -85,3 +85,7 @@ C:\Users\rugay\OneDrive\Belgeler\GitHub\Test\MyFinalProject\WebAPI\bin\Debug\net
 C:\Users\rugay\OneDrive\Belgeler\GitHub\Test\MyFinalProject\WebAPI\bin\Debug\net6.0\Core.pdb
 C:\Users\rugay\OneDrive\Belgeler\GitHub\Test\MyFinalProject\WebAPI\bin\Debug\net6.0\DataAccess.pdb
 C:\Users\rugay\OneDrive\Belgeler\GitHub\Test\MyFinalProject\WebAPI\bin\Debug\net6.0\Entities.pdb
+C:\Users\rugay\OneDrive\Belgeler\GitHub\Test\MyFinalProject\WebAPI\bin\Debug\net6.0\Autofac.dll
+C:\Users\rugay\OneDrive\Belgeler\GitHub\Test\MyFinalProject\WebAPI\bin\Debug\net6.0\Autofac.Extras.DynamicProxy.dll
+C:\Users\rugay\OneDrive\Belgeler\GitHub\Test\MyFinalProject\WebAPI\bin\Debug\net6.0\Castle.Core.dll
+C:\Users\rugay\OneDrive\Belgeler\GitHub\Test\MyFinalProject\WebAPI\bin\Debug\net6.0\Autofac.Extensions.DependencyInjection.dll
