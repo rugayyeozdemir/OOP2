@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7/pwfeoyM87nM+AUVbSwW3J4f6Bu9D4MVc11XOytS4O2hFllahYwRIk8cV/LETXsP4ibwrNduas5UmOC4nO5ww==",
+  "dgSpecHash": "UmR1khkozWsBqStPupHIfxfayRSWT/RqX0BPKgQ9rT8wyCTTIWFqStUY8oxvbR7EwrdPhHz685gVFUnMyRTLHg==",
   "success": true,
   "projectFilePath": "C:\\Users\\rugay\\OneDrive\\Belgeler\\GitHub\\Test\\MyFinalProject\\ConsoleUI\\ConsoleUI.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\rugay\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\rugay\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\rugay\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
+    "C:\\Users\\rugay\\.nuget\\packages\\fluentvalidation\\11.6.0\\fluentvalidation.11.6.0.nupkg.sha512",
     "C:\\Users\\rugay\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\rugay\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\rugay\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.2\\microsoft.data.sqlclient.5.0.2.nupkg.sha512",

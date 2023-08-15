@@ -1,9 +1,14 @@
 ﻿using Business.Abstract;
-using Business.Constants;
+using Business.Constants;using Business.ValidationRules.FulentValidation;
+using Business.ValidationRules.FulentValidation;
+using Core.Aspects.Autofac.Validation;
+using Core.CrossCuttingConcerns.Validation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using Entities.DTOs;
+using FluentValidation;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.Design;
 
 namespace Business.Concrete
@@ -16,16 +21,14 @@ namespace Business.Concrete
         {
             _productDal = productDal;
         }
-
+        [ValidationAspect(typeof(ProductValidator))]
         public IResult Add(Product product)
         {
-            //business codes
 
-            if (product.ProductName.Length<2)
-            {
-                //magic strings
-                return new ErrorResult("hata olıştu");
-            }
+            ValidationTool.Validate(new ProductValidator(), product);
+          
+
+            //business codes
             _productDal.Add(product);
 
             return new SuccessResult("Messages.ProductAdded");
