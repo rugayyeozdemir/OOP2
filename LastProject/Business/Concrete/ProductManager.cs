@@ -1,5 +1,9 @@
 ﻿using Business.Abstract;
+using Business.CCS;
 using Business.Constants;
+using Business.ValidationRules.FulentValidation;
+using Castle.DynamicProxy.Generators.Emitters.SimpleAST;
+using Core.Aspects.Autofac.Validation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
@@ -12,31 +16,11 @@ namespace Business.Concrete
     public class ProductManager : IProductService
     {
         IProductDal _productDal;
+
         public ProductManager(IProductDal productDal)
         {
             _productDal = productDal;
         }
-
-
-
-        //[ValidationAspect(typeof(ProductValidator))]
-        public IResult Add(Product product)
-        {
-            try
-            {
-
-                _productDal.Add(product);
-
-                return new SuccessResult(Messages.ProductAdded);
-            }
-
-            catch (Exception exeption)
-            {
-                return new ErrorResult();
-            }
-
-        }
-
         public IDataResult<List<Product>> GetAll()
 
         {
@@ -65,6 +49,17 @@ namespace Business.Concrete
 
         }
 
+        [ValidationAspect(typeof(ProductValidator))]
+        public IResult Add(Product product)
+        {
+
+            if (CheckIfProductCountOfCategoryCorrect(product.CategoryId).Success)
+            {
+                _productDal.Add(product);
+                return new SuccessResult(Messages.ProductAdded);
+            }
+            return new ErrorResult();
+        }
         public IDataResult<List<Product>> GetByUnitPrice(decimal min, decimal max)
         {
             return new SuccessDataResult<List<Product>>(_productDal.GetAll(p => p.UnitPrice >= min && p.UnitPrice <= max));
@@ -75,7 +70,27 @@ namespace Business.Concrete
             return new SuccessDataResult<List<ProductDetailDto>>(_productDal.GetProductDetails());
 
         }
+        [ValidationAspect(typeof(ProductValidator))]
+        public IResult Update(Product product)
+        {
+            var result = _productDal.GetAll(p => p.ProductId == product.CategoryId).Count;
+            if (result >= 15)
+            {
+                return new ErrorResult(Messages.ProductCountOfCategoryError);
+            }
+            throw new NotImplementedException();
+        }
 
+        private IResult CheckIfProductCountOfCategoryCorrect(int categoryId )
+        {
+            var result = _productDal.GetAll(p => p.CategoryId == categoryId).Count;
+            if (result >= 15)
+            {
+                return new ErrorResult(Messages.ProductCountOfCategoryError);
+            }
 
-    }
+            return new SuccessResult();
+        }
+    }   
 }
+

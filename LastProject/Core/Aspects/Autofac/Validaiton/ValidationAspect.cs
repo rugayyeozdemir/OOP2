@@ -7,7 +7,7 @@ using System.Linq;
 
 namespace Core.Aspects.Autofac.Validation
 {
-    public class ValidationAspect : MethodInterception
+    public class ValidationAspect : MethodInterception //Aspect "methodun başından sonuna kadar çalışacak yapı"
     {
         private Type _validatorType;
         public ValidationAspect(Type validatorType)
