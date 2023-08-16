@@ -1,8 +1,8 @@
 ﻿using Business.Abstract;
-using Business.Constants;using Business.ValidationRules.FulentValidation;
+using Business.CCS;
+using Business.Constants;
 using Business.ValidationRules.FulentValidation;
 using Core.Aspects.Autofac.Validation;
-using Core.CrossCuttingConcerns.Validation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
@@ -15,18 +15,35 @@ namespace Business.Concrete
 {
     public class ProductManager : IProductService
     {
-        private readonly IProductDal _productDal;
-
-        public ProductManager(IProductDal productDal)
+        IProductDal _productDal;
+        private readonly ILogger _logger;
+        ILogger logger; 
+        public ProductManager(IProductDal productDal, ILogger logger )
         {
             _productDal = productDal;
+            _logger = logger;
         }
-        [ValidationAspect(typeof(ProductValidator))]
+
+
+
+         //[ValidationAspect(typeof(ProductValidator))]
         public IResult Add(Product product)
         {
+            _logger.Log();
+            try
+            {
+                //business codes 
 
-            ValidationTool.Validate(new ProductValidator(), product);
-          
+                _productDal.Add(product);
+
+                return new SuccessResult(Messages.ProductAdded);
+            }
+
+            catch (Exception exeption)
+            {
+                _logger.Log(); 
+            }
+            return new ErrorResult();
 
             //business codes
             _productDal.Add(product);

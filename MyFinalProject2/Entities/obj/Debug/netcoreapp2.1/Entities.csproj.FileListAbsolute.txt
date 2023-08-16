@@ -1,0 +1,5 @@
+C:\Users\rugay\OneDrive\Belgeler\GitHub\Test\MyFinalProject2\Entities\obj\Debug\netcoreapp2.1\Entities.csproj.AssemblyReference.cache
+C:\Users\rugay\OneDrive\Belgeler\GitHub\Test\MyFinalProject2\Entities\obj\Debug\netcoreapp2.1\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rugay\OneDrive\Belgeler\GitHub\Test\MyFinalProject2\Entities\obj\Debug\netcoreapp2.1\Entities.AssemblyInfoInputs.cache
+C:\Users\rugay\OneDrive\Belgeler\GitHub\Test\MyFinalProject2\Entities\obj\Debug\netcoreapp2.1\Entities.AssemblyInfo.cs
+C:\Users\rugay\OneDrive\Belgeler\GitHub\Test\MyFinalProject2\Entities\obj\Debug\netcoreapp2.1\Entities.csproj.CoreCompileInputs.cache

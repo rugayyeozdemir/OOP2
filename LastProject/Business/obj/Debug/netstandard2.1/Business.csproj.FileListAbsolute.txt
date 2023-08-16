@@ -1,0 +1,17 @@
+C:\Users\rugay\OneDrive\Belgeler\GitHub\Test\LastProject\Business\obj\Debug\netstandard2.1\Business.csproj.AssemblyReference.cache
+C:\Users\rugay\OneDrive\Belgeler\GitHub\Test\LastProject\Business\obj\Debug\netstandard2.1\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rugay\OneDrive\Belgeler\GitHub\Test\LastProject\Business\obj\Debug\netstandard2.1\Business.AssemblyInfoInputs.cache
+C:\Users\rugay\OneDrive\Belgeler\GitHub\Test\LastProject\Business\obj\Debug\netstandard2.1\Business.AssemblyInfo.cs
+C:\Users\rugay\OneDrive\Belgeler\GitHub\Test\LastProject\Business\obj\Debug\netstandard2.1\Business.csproj.CoreCompileInputs.cache
+C:\Users\rugay\OneDrive\Belgeler\GitHub\Test\LastProject\Business\bin\Debug\netstandard2.1\Business.deps.json
+C:\Users\rugay\OneDrive\Belgeler\GitHub\Test\LastProject\Business\bin\Debug\netstandard2.1\Business.dll
+C:\Users\rugay\OneDrive\Belgeler\GitHub\Test\LastProject\Business\bin\Debug\netstandard2.1\Business.pdb
+C:\Users\rugay\OneDrive\Belgeler\GitHub\Test\LastProject\Business\bin\Debug\netstandard2.1\Core.dll
+C:\Users\rugay\OneDrive\Belgeler\GitHub\Test\LastProject\Business\bin\Debug\netstandard2.1\DataAccess.dll
+C:\Users\rugay\OneDrive\Belgeler\GitHub\Test\LastProject\Business\bin\Debug\netstandard2.1\Entities.dll
+C:\Users\rugay\OneDrive\Belgeler\GitHub\Test\LastProject\Business\bin\Debug\netstandard2.1\DataAccess.pdb
+C:\Users\rugay\OneDrive\Belgeler\GitHub\Test\LastProject\Business\bin\Debug\netstandard2.1\Entities.pdb
+C:\Users\rugay\OneDrive\Belgeler\GitHub\Test\LastProject\Business\bin\Debug\netstandard2.1\Core.pdb
+C:\Users\rugay\OneDrive\Belgeler\GitHub\Test\LastProject\Business\obj\Debug\netstandard2.1\Business.csproj.CopyComplete
+C:\Users\rugay\OneDrive\Belgeler\GitHub\Test\LastProject\Business\obj\Debug\netstandard2.1\Business.dll
+C:\Users\rugay\OneDrive\Belgeler\GitHub\Test\LastProject\Business\obj\Debug\netstandard2.1\Business.pdb

@@ -1,0 +1,10 @@
+C:\Users\rugay\OneDrive\Belgeler\GitHub\Test\LastProject\Core\bin\Debug\netstandard2.1\Core.deps.json
+C:\Users\rugay\OneDrive\Belgeler\GitHub\Test\LastProject\Core\bin\Debug\netstandard2.1\Core.dll
+C:\Users\rugay\OneDrive\Belgeler\GitHub\Test\LastProject\Core\bin\Debug\netstandard2.1\Core.pdb
+C:\Users\rugay\OneDrive\Belgeler\GitHub\Test\LastProject\Core\obj\Debug\netstandard2.1\Core.csproj.AssemblyReference.cache
+C:\Users\rugay\OneDrive\Belgeler\GitHub\Test\LastProject\Core\obj\Debug\netstandard2.1\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rugay\OneDrive\Belgeler\GitHub\Test\LastProject\Core\obj\Debug\netstandard2.1\Core.AssemblyInfoInputs.cache
+C:\Users\rugay\OneDrive\Belgeler\GitHub\Test\LastProject\Core\obj\Debug\netstandard2.1\Core.AssemblyInfo.cs
+C:\Users\rugay\OneDrive\Belgeler\GitHub\Test\LastProject\Core\obj\Debug\netstandard2.1\Core.csproj.CoreCompileInputs.cache
+C:\Users\rugay\OneDrive\Belgeler\GitHub\Test\LastProject\Core\obj\Debug\netstandard2.1\Core.dll
+C:\Users\rugay\OneDrive\Belgeler\GitHub\Test\LastProject\Core\obj\Debug\netstandard2.1\Core.pdb
