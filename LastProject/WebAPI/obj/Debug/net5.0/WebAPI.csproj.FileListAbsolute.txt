@@ -65,3 +65,8 @@ C:\Users\rugay\OneDrive\Belgeler\GitHub\Test\LastProject\WebAPI\obj\Debug\net5.0
 C:\Users\rugay\OneDrive\Belgeler\GitHub\Test\LastProject\WebAPI\obj\Debug\net5.0\WebAPI.pdb
 C:\Users\rugay\OneDrive\Belgeler\GitHub\Test\LastProject\WebAPI\obj\Debug\net5.0\WebAPI.genruntimeconfig.cache
 C:\Users\rugay\OneDrive\Belgeler\GitHub\Test\LastProject\WebAPI\obj\Debug\net5.0\ref\WebAPI.dll
+C:\Users\rugay\OneDrive\Belgeler\GitHub\Test\LastProject\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\rugay\OneDrive\Belgeler\GitHub\Test\LastProject\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\rugay\OneDrive\Belgeler\GitHub\Test\LastProject\WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\rugay\OneDrive\Belgeler\GitHub\Test\LastProject\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\rugay\OneDrive\Belgeler\GitHub\Test\LastProject\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
