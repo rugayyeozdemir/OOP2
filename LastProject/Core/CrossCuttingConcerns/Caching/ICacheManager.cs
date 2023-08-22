@@ -12,7 +12,6 @@ namespace Core.CrossCuttingConcerns.Caching
         bool IsAdd(string key);
         void Remove(string key);
         void RamoveByPattern(string pattern );
-
-
+        void RemoveByPattern(string pattern);
     }
 }

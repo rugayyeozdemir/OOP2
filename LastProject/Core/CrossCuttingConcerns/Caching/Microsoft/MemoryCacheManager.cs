@@ -67,6 +67,11 @@ namespace Core.CrossCuttingConcerns.Caching.Microsoft
             }
 
         }
+
+        public void RemoveByPattern(string pattern)
+        {
+            throw new NotImplementedException();
+        }
     } 
     }
 
