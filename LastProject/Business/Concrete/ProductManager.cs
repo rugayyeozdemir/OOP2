@@ -1,4 +1,4 @@
-﻿using Business.Abstract;
+﻿ using Business.Abstract;
 using Business.BusinessAspects.Autofac;
 using Business.CCS;
 using Business.Constants;
@@ -25,6 +25,7 @@ namespace Business.Concrete
             _productDal = productDal;
             _categoryService = categoryService;
         }
+         [CacheAspect] //key,value
         public IDataResult<List<Product>> GetAll()
 
         {
@@ -136,6 +137,10 @@ namespace Business.Concrete
 
             return new SuccessResult();
         }
-    }   
+    }
+
+    internal class CacheAspectAttribute : Attribute
+    {
+    }
 }
 

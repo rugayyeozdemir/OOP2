@@ -32,6 +32,9 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
+              "C:\\Users\\rugay\\OneDrive\\Belgeler\\GitHub\\Test\\LastProject\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\rugay\\OneDrive\\Belgeler\\GitHub\\Test\\LastProject\\Core\\Core.csproj"
+              },
               "C:\\Users\\rugay\\OneDrive\\Belgeler\\GitHub\\Test\\LastProject\\DataAccess\\DataAccess.csproj": {
                 "projectPath": "C:\\Users\\rugay\\OneDrive\\Belgeler\\GitHub\\Test\\LastProject\\DataAccess\\DataAccess.csproj"
               },

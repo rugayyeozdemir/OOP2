@@ -1364,6 +1364,7 @@
         "dependencies": {
           "Autofac": "4.9.4",
           "Autofac.Extras.DynamicProxy": "4.5.0",
+          "Core": "1.0.0",
           "DataAccess": "1.0.0",
           "Entities": "1.0.0",
           "FluentValidation": "8.5.0",
